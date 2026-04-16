@@ -1,0 +1,56 @@
+.breadcrumb-bg {
+  background-image: url(../assets/subpage-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+}
+.breadcrumb-area .opcity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  opacity: 0.75;
+  z-index: -1;
+}
+.breadcrumb-area .contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  margin-top: 70px;
+  font-family: "Marcellus", serif;
+}
+.breadcrumb-area .contact h2 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.breadcrumb-area .contact h5 {
+  font-size: 16px;
+}
+.breadcrumb-area .contact h5 a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.img_sec img {
+  width: 600px;
+}
+@media (max-width: 600px) {
+  .img_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .img_sec img{
+    width: 450px;
+  }
+}

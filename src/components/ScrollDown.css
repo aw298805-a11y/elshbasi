@@ -1,0 +1,25 @@
+.scrollup{
+  position: fixed;
+  right: 97%;
+  bottom: 0;
+  padding: 8px 10px;
+  display: block;
+  z-index: 99;
+  background-color: #b75b04;
+  color: white;
+  border: 0;
+  transition: 0.3s;
+}
+.scrollup.active{
+  transform: none;
+  opacity: 1;
+}
+.scrollup:hover{
+  transform: translateY(-3px);
+  transition: 0.3s;
+}
+@media (max-width:600px) {
+  .scrollup{
+    right: 93%;
+  }
+}

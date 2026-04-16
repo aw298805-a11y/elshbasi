@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.intro-web {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 53px;
+  background-color: #b75b04;
+}
+.intro-web a {
+  text-decoration: none;
+  color: white;
+}
+.intro-web .line {
+  height: 30px;
+  width: 1px;
+  background-color: white;
+}
+.intro-web .telephone {
+  margin-right: 20px;
+  font-size: 18px;
+  padding: 10px;
+}
+.intro-web .e-mail {
+  margin-left: 20px;
+  font-size: 18px;
+  padding-right: 30px;
+}
+.intro-web .icon {
+  margin-left: 10px;
+  font-size: smaller;
+}
+@media (max-width: 600px) {
+  .intro-web {
+    display: none;
+  }
+}
+@media (min-width: 601px) and (max-width: 992px) {
+  .intro-web {
+    display: none;
+  }
+}

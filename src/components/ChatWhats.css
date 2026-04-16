@@ -1,0 +1,28 @@
+.whatsapp {
+  right: unset;
+  left: 15px;
+  position: fixed;
+  bottom: 50px;
+  font-size: 14px;
+  z-index: 99;
+}
+.chat-icon {
+  width: 72px;
+  height: 72px;
+  background-color: #25d366;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.4);
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+  overflow: hidden;
+}
+.whatsapp .chat-icon a img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}

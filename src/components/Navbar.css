@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-container{
+    background-color: #FFFFFF;
+    padding: 10px 0px;
+    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 100000;
+    transition: all 0.3s ease-in-out;
+}
+.navbar-container .select-language{
+    width: 90px;
+    margin-left: 20px;
+}
+.navbar-container .nav-links .active{
+    color: #b75b04;
+}
+.navbar-container .nav-links .link:hover{
+    color: #b75b04;
+}
+.navbar-container .toggle{
+    background-color: #b75b04;
+    border-radius: 0;
+}
+.navbar-container .link{
+    margin-right: 30px;
+}
