@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Form from "react-bootstrap/Form";
 import logo from "../assets/logo.jpg";
 import "./Navbar.css";
-import { Link, Links } from "react-router";
+import { Link } from "react-router";
 
 const NavbarSt = () => {
   return (
